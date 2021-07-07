@@ -1,0 +1,13 @@
+header {
+    margin:0px;
+    padding:0px;
+    border: none;
+    background-color: white;
+}
+
+img {
+    border:0;
+}
+.posicion{
+    text-align: right;
+  }

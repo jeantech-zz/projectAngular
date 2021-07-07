@@ -1,0 +1,21 @@
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+  
+      <!-- Icon -->
+        
+      <!-- Login Form -->
+      <form [formGroup]="inicioForm" (ngSubmit)="onConsulta(inicioForm.value)"> 
+        <input type="text" id="nit" class="fadeIn second"  placeholder="nit" formControlName="nit">
+        <input type="submit" class="fadeIn fourth" value="Consulta">
+      </form>
+
+      <!-- Remind Passowrd -->
+      
+
+      <div id="alert alert-danger" *ngIf="errorStatus">
+        <p>{{errorMsj}}</p>
+      </div>
+  
+    </div>
+  </div>

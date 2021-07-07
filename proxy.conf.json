@@ -1,0 +1,8 @@
+{
+    "/pruebaClient/*": {
+      "target": "https://fot7y6p1a0.execute-api.us-east-1.amazonaws.com",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true
+    }
+  }
